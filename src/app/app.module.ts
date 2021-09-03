@@ -10,7 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ShoopingCartService } from './services/shooping-cart.service';
 import { OrderService } from './services/order.service';
 
-@NgModule({
+/*@NgModule({
   declarations: [
     AppComponent,
     ShoppingCartComponent,
@@ -20,8 +20,8 @@ import { OrderService } from './services/order.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-  ],
+    HttpClientModule*/
+    ],
   providers: [
     ProductService, 
     ShoopingCartService,
