@@ -22,7 +22,7 @@ export class OrderComponent implements OnInit {
   ngOnInit(): void {
     this.products = this.getProducts();
   }
-/*
+  
   getProducts() {
     return this.shoopingCartService.getItems();
   }
@@ -48,7 +48,7 @@ export class OrderComponent implements OnInit {
     order.products = this.products;
     order.productsCounter = this.getItemCounter();
     order.productsPrice = this.getItemPrices();
-*/
+
     this.orderService.order(order).subscribe(data => {
       this.shoopingCartService.clearCart();
       this.ngOnInit();
