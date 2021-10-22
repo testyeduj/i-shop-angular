@@ -9,8 +9,7 @@ import { Observable } from 'rxjs';
 export class ProductService {
 
   // Base url
-  baseurl = 'http://dev-livecode.codenga.pl/api/i-shop';
-  //baseUrl = 'http://localhost:8080/api/i-shop';
+  baseurl = 'https://livecode.codenga.pl/api/i-shop';
 
   constructor(private http: HttpClient) { }
 
